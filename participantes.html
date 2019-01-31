@@ -67,7 +67,7 @@ layout: default
 
     </div>
     <div class="card-columns">
-      {% assign participantes = site.data.participantes[2017] | concat: site.data.participantes[2019]  %}
+      {% assign participantes = site.data.participantes[2017] | concat: site.data.participantes[2018] | concat: site.data.participantes[2019]  %}
       {% for p in participantes %}
         {% for e in p.equipo %}
           <div class="card grid-item {{ e.country }} {{ e.tag0 }} {{ e.tag1 }} {{ e.tag2 }} {{ e.tag3 }} {{ e.tag4 }} {{ e.tag5 }} {{ e.tag6 }} {{ e.tag7 }} {{ e.tag7 }} {{ e.tag8 }} {{ e.tag9 }} {{ e.tag10 }} {{ e.tag11 }} {{ e.tag12 }} {{ e.tag13 }} {{ e.tag14 }} {{ e.tag15 }}"
