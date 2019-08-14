@@ -33,7 +33,7 @@ mark.mark-white{
 
 .navbar-home{
   padding: 20px 15px 20px 15px;
-  min-height: 110px;
+  min-height: 260px;
   background-color: transparent;
   border: none;
   position: absolute;
@@ -153,6 +153,17 @@ h4{
   background-color: $yellow;
   padding: 100px 15px;
 }
+section.news-bar {
+    position: relative;
+    z-index: 100;
+    padding: 10px 0 20px;
+    margin-bottom: -30px;
+}
+a.bar {
+    position: relative;
+    top: 3px;
+}
+
 section.filters{
   margin-top: 60px;
 }
