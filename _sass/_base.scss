@@ -538,6 +538,9 @@ i.fa.fa-bars{
 }
 
 @media (max-width: 991px) {
+  .navbar-home{
+    top: 80px;
+  }
   .navbar-sub .navbar-nav > li{
     margin: 0;
   }
