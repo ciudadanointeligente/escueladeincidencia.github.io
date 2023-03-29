@@ -14,7 +14,7 @@ baseurl: '//escueladeincidencia.org' #"//ciudadanointeligente/escueladeincidenci
 basedomain: escueladeincidencia.org
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
-analytics: 'UA-76464035-3'
+analytics: 'G-QXP6LKS5XF'
 
 # Build settings
 markdown: kramdown
